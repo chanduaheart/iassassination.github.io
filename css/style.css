@@ -4,20 +4,20 @@ html, body {
 
 .wrap {
     background-color: #fff;
-    position: relative;
+    position: relative
 }
 
 .container {
     width: 1370px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .spr, .game_slide .swiper-button-prev, .game_slide .swiper-button-next {
-    background: url(../images/sprite.png) no-repeat;
+    background: url(../images/sprite.png) no-repeat
 }
 
 .spr_page, .share_icon a {
-    background: url(../images/spr_page.png) no-repeat;
+    background: url(../images/spr_page.png) no-repeat
 }
 
 .header {
@@ -165,57 +165,56 @@ html, body {
     position: absolute;
     top: 355px;
     right: 0;
-    z-index: 10;
+    z-index: 10
 }
-
 
 .float_link a {
     display: block;
     margin: 0 auto 20px;
     text-indent: -999em;
-    background: url(../images/open_icon.png) no-repeat;
+    background: url(../images/open_icon.png) no-repeat
 }
 
 .float_link a:nth-child(1) {
     width: 25px;
     height: 25px;
-    background-position: -2px 0;
+    background-position: -2px 0
 }
 
 .float_link a:nth-child(2) {
     width: 28px;
     height: 28px;
-    background-position: 0 -78px;
+    background-position: 0 -78px
 }
 
 .float_link a:nth-child(3) {
     width: 26px;
     height: 19px;
-    background-position: -1px -120px;
+    background-position: -1px -120px
 }
 
 .float_link a:nth-child(4) {
     width: 26px;
     height: 26px;
-    background-position: -1px -155px;
+    background-position: -1px -155px
 }
 
 .float_link a:nth-child(5) {
     width: 27px;
     height: 15px;
-    background-position: -1px -238px;
+    background-position: -1px -238px
 }
 
 .float_link a:nth-child(1):hover {
-    background-position: -34px 0;
+    background-position: -34px 0
 }
 
 .float_link a:nth-child(2):hover {
-    background-position: -32px -78px;
+    background-position: -32px -78px
 }
 
 .float_link a:nth-child(3):hover {
-    background-position: -33px -120px;
+    background-position: -33px -120px
 }
 
 .float_link a:nth-child(4):hover {
@@ -223,7 +222,7 @@ html, body {
 }
 
 .float_link a:nth-child(5):hover {
-    background-position: -33px -238px;
+    background-position: -33px -238px
 }
 
 .game_show {
