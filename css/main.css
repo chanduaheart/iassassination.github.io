@@ -1,0 +1,47 @@
+body::-webkit-scrollbar {
+    width: 0px;
+}
+.alert-box {
+	background-color: transparent;
+	color: #fff;
+	font-size: 14px;
+	line-height: 23px;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Lato', Arial, sans-serif;
+	border: none;
+    font-weight:bold;
+}
+.alert-box .badge {
+	background-color: #f58f2a;
+	border-radius: 3px;
+	color: #fff;
+	margin-left: 4px;
+	margin-right: 4px;
+	padding: 3px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+#register{
+	display: block;
+	position: relative;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	padding: 20px;
+	margin:auto;
+	font-size: 30px;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #ededed;
+	background: #f58f2a;
+}
+
+#register:hover{
+	transform: scale(1.25);
+	transition: 0.3s;
+}
+
+#videoElementId{
+	width: 1920px;
+	height: 1120x;
+}
