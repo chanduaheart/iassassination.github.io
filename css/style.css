@@ -1,24 +1,23 @@
 html, body {
     width: 100%;
-    background-color: #fff
 }
 
 .wrap {
     background-color: #fff;
-    position: relative
+    position: relative;
 }
 
 .container {
     width: 1370px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .spr, .game_slide .swiper-button-prev, .game_slide .swiper-button-next {
-    background: url(../images/sprite.png) no-repeat
+    background: url(../images/sprite.png) no-repeat;
 }
 
 .spr_page, .share_icon a {
-    background: url(../images/spr_page.png) no-repeat
+    background: url(../images/spr_page.png) no-repeat;
 }
 
 .header {
