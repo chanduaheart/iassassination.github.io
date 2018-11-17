@@ -210,17 +210,18 @@ hr{
 .alert-box {
 	background-color: #fffbcc;
 	color: #777;
-	font-size: 14px;
-	line-height: 23px;
-	padding: 5px;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 4px;
 	text-align: center;
 	font-family: 'Lato', Arial, sans-serif;
-	border: 1px dotted #000;
+  border: 1px dotted #000;
+  font-weight:bold;
 }
 .alert-box .badge {
 	background-color: #f58f2a;
 	border-radius: 3px;
-	color: #fff;
+  color: #fff;
 	margin-left: 4px;
 	margin-right: 4px;
 	padding: 3px;
