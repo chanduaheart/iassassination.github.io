@@ -10,7 +10,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 0px;
+  width: 0px;
 }
 
 .page {
@@ -140,11 +140,10 @@ body::-webkit-scrollbar {
 }
 
 /* Let's open up the menu */
-.shazam {
-  .content_inner {
+/* .shazam .content_inner {
     height: 100%;
-  }
-}
+} */
+
 .shazam .content {
   -webkit-transform: rotate(-30deg);
           transform: rotate(-30deg);
@@ -210,12 +209,14 @@ hr{
 .alert-box {
 	background-color: #fffbcc;
 	color: #777;
-	font-size: 15px;
-	line-height: 25px;
-	padding: 4px;
+	font-size: 14px;
+	line-height: 23px;
+  margin: 0;
+	padding-top: 7px;
 	text-align: center;
 	font-family: 'Lato', Arial, sans-serif;
   border: 1px dotted #000;
+  border-radius: 1px;
   font-weight:bold;
 }
 .alert-box .badge {
