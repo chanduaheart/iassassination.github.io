@@ -140,10 +140,11 @@ body::-webkit-scrollbar {
 }
 
 /* Let's open up the menu */
-/* .shazam .content_inner {
+.shazam {
+  /*.content_inner {
     height: 100%;
-} */
-
+  }*/
+}
 .shazam .content {
   -webkit-transform: rotate(-30deg);
           transform: rotate(-30deg);
