@@ -8,3 +8,176 @@
   height: 15px;
   width: 15px;
 }
+/* ===================================================================
+ *  16. apply - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+ #apply {
+  background-color: #111111;
+  background-image: url(../images/apply-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding: 12rem 0 12rem;
+  position: relative;
+}
+#apply .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .75;
+  background-color: #000000;
+}
+#apply .section-intro h1 {
+  color: white;
+}
+#apply .section-intro h3 {
+  color: rgba(242, 242, 242, 0.5);
+}
+#apply .section-intro p.lead {
+  color: rgba(242, 242, 242, 0.4);
+}
+
+.apply-content {
+  max-width: 1024px;
+  margin-top: 3rem;
+  color: #FFFFFF;
+  z-index: 600;
+  position: relative;
+}
+.apply-content h5 {
+  color: #FFFFFF;
+  margin-bottom: 5.4rem;
+}
+.apply-content h6 {
+  color: #555555;
+  font-size: 1.4rem;
+}
+
+/* apply info */
+.apply-info .cinfo {
+  margin-bottom: 4.2rem;
+}
+
+/* apply form */
+#apply form {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+#apply form .form-field {
+  position: relative;
+}
+#apply form .form-field:before, #apply form .form-field:after {
+  content: "";
+  display: table;
+}
+#apply form .form-field:after {
+  clear: both;
+}
+#apply form .form-field label {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 0;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  padding: .6rem 2rem .6rem 2rem;
+  margin: 0;
+  color: #000000;
+  background: #f9a828;
+  border-radius: 3px;
+}
+#apply form .form-field label::after {
+  position: absolute;
+  right: 15px;
+  top: 1px;
+  margin-top: -6px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #f9a828;
+  content: "";
+}
+#apply form ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+#apply form :-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  /* Firefox 18- */
+}
+#apply form ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  /* Firefox 19+ */
+}
+#apply form :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+#apply form .placeholder {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+#apply input[type="text"],
+#apply input[type="password"],
+#apply input[type="email"],
+#apply textarea {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 3.6rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#apply input[type="text"]:focus,
+#apply input[type="password"]:focus,
+#apply input[type="email"]:focus {
+  color: #FFFFFF;
+}
+
+#apply textarea {
+  min-height: 21rem;
+  padding: 1.8rem 2rem;
+}
+#apply textarea:focus {
+  color: #FFFFFF;
+}
+
+#apply button.submitform {
+  font-size: 1.5rem;
+  display: block;
+  letter-spacing: .2rem;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 3rem;
+  width: 100%;
+  background: #f9a828;
+  color: #000000;
+  margin-top: .6rem;
+}
+#apply button.submitform:hover, #apply button.submitform:focus {
+  background: #f89e0f;
+}
+
+#message-warning, #message-success {
+  display: none;
+  background: #000000;
+  padding: 3rem;
+  margin-bottom: 3.6rem;
+  width: 100%;
+}
+
+#message-warning {
+  color: #D32B2E;
+}
+
+#message-success {
+  color: #f9a828;
+}
+
+#message-warning i,
+#message-success i {
+  margin-right: 10px;
+}
