@@ -1,123 +1,420 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>iAssassination</title>
-	<link rel="icon" type="image/icon" sizes="32x32" href="images/favicon.ico">
-	<meta name="description" content="PUBG MOBILE TOURNAMENT | iAssassination" />
-	<meta name="keywords" content="pubg mobile, pubg mobile tournament, pubg mobile global tournament, geekofia, chankruze" />
-	<meta name="author" content="chankruze for iAssassination" />
-	<link rel="stylesheet" href="css/common.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/main.css" />
 
-	<script>
-		alert("WEBSITE IS UNDER CONSTRUCTION !");
-	</script>
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>iAssassination</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 
-<body>
-	<div id="fb-root"></div>
-	<div class="top_nav">
-		<div class="top_main c">
-			<div class="top_log c">
-				<a href="javascript:;">
-					<img src="images/icon_logo.png" width="128" height="128" alt="" />
-				</a>
-				<h1 class="top_tit">
-					iAssassination
-					<span>FREE PUBG MOBILE TOURNAMENTS</span>
-				</h1>
-			</div>
-			<ul class="nav_list">
-				<li class="on">
-					<a href="index.html">HOME</a>
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+	<header>
+
+		<div class="header-logo">
+			<a href="index.html">iAssassination</a>
+		</div>
+
+		<a id="header-menu-trigger" href="#0">
+			<span class="header-menu-text">Menu</span>
+			<span class="header-menu-icon"></span>
+		</a>
+
+		<nav id="menu-nav-wrap">
+
+			<a href="#0" class="close-button" title="close">
+				<span>Close</span>
+			</a>
+
+			<h3>iAssassination</h3>
+
+			<ul class="nav-list">
+				<li class="current">
+					<a class="smoothscroll" href="#home" title="">Home</a>
 				</li>
 				<li>
-					<a href="tournament/">TOURNAMENT</a>
+					<a class="smoothscroll" href="#about" title="">About Us</a>
 				</li>
 				<li>
-					<a href="form.html">FORM</a>
+					<a class="smoothscroll" href="#services" title="">What We Do</a>
 				</li>
 				<li>
-					<a href="https://discord.gg/fMZ55r7">DISCORD</a>
-					<!-- <a href="discord.html">DISCORD</a> -->
-				</li>
-				<li>
-					<a href="team/">TEAM</a>
+					<a class="smoothscroll" href="#join" title="">Join Us</a>
 				</li>
 			</ul>
-		</div>
-		<div class="alert-box">
-			<marquee>
-				<span class="badge">Next Match</span>Today, 09:45 PM (IST)/04:15 PM (GMT)</marquee>
-		</div>
-		<p class="par_coor">
-			<img src="images/coor_dinate.png" width="1112" height="33" alt="" />
-		</p>
-	</div>
 
-	<script type="text/javascript" src="js/utils.js"></script>
+			<ul class="header-social-list">
+				<li>
+					<a href="https://www.youtube.com/channel/UCK1bIJIEV-syd6WZmKoTSSA" target="_blank">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://twitch.tv/sidpan2" target="_blank">
+						<i class="fab fa-twitch"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://discord.gg/fMZ55r7" target="_blank">
+						<i class="fab fa-discord"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://chat.whatsapp.com/DN8EzaGvLMmC5Py7RdJIUs" target="_blank">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</li>
+			</ul>
+
+		</nav>
+		<!-- end #menu-nav-wrap -->
+
+	</header>
+	<!-- end header -->
 
 
-	<div class="wrap">
-		<div class="header">
-			<video id="videoElementId" playsinline autoplay muted loop>
-				<source src="videos/background.mp4" type="video/mp4" />
-				<source src="videos/background.ogg" type="video/ogg" />
-			</video>
-			<div class="container">
-				<h2 class="head_slogn">PLAYERUNKNOWNS BATTLEGROUNDS MOBILE</h2>
-				<p class="flip">
-					<i class="flip_icon spr"></i>
-					<em>SCROLL DOWN</em>
-				</p>
-				<p class="float_link">
-					<a href="#" target="_blank">Facebook</a>
-					<a href="https://www.twitch.tv/sidpan2" target="_blank">Twitch</a>
-					<a href="https://www.youtube.com/channel/UCK1bIJIEV-syd6WZmKoTSSA" target="_blank">Youtube</a>
-					<a href="#" target="_blank">Instagram</a>
-					<a href="https://chat.whatsapp.com/DN8EzaGvLMmC5Py7RdJIUs" target="_blank">Whatsapp</a>
-				</p>
-			</div>
-			<div class="hd_bot"></div>
-		</div>
-		<div class="game_show">
-			<button id="register" onclick="window.open('tournament/')">Join Us Now !</button>
-		</div>
+	<!-- home
+   ================================================== -->
+	<section id="home">
 
-	</div>
+		<div class="overlay"></div>
 
-	<div class="footer">
-		<img src="images/foot_car.png" width="649" height="505" alt="" class="car_img" />
-		<div class="foot_ct">
-			<p class="foot_icon">
-				<a href="#" class="foot_icon1" target="_blank">Facebook</a>
-				<a href="https://www.twitch.tv/sidpan2" class="foot_icon2" target="_blank">Twitter</a>
-				<a href="https://www.youtube.com/channel/UCK1bIJIEV-syd6WZmKoTSSA" class="foot_icon3" target="_blank">Youtube</a>
-				<a href="#F" class="foot_icon4" target="_blank">Instagram</a>
-				<a href="https://vk.com/pubgmobile" class="foot_icon5" target="_blank">VK</a>
-			</p>
-			<div class="foot_copy c">
-				<p class="copy_left">
-					<img src="images/foot_logo1.png" width="49" height="40" alt="" />
-					<img src="images/foot_logo2.png" width="139" height="41" alt="" />
-					<img src="images/foot_logo3.png" width="239" height="41" alt="" />
-				</p>
-				<div class="copy_right">
-					<p>Copyright &copy; iAssassination 2018. All rights reserved.</p>
-					<p>Coded and hosted with
-						<svg id="love" class="svg-inline--fa fa-heart fa-w-16" style="color: red;" aria-hidden="true" data-prefix="fa" data-icon="heart"
-						 role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
-							<path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
-						</svg> by GEEKOFIA.</p>
+		<div class="home-content-table">
+			<div class="home-content-tablecell">
+				<div class="row">
+					<div class="col-twelve">
+
+						<h3 class="animate-intro">We Are iAssassination</h3>
+						<h1 class="animate-intro">
+							we play and stream
+							<br> PUBG MOBILE
+						</h1>
+
+						<div class="more animate-intro">
+							<a class="smoothscroll button stroke" href="#about">
+								More
+							</a>
+						</div>
+
+					</div>
+					<!-- end col-twelve -->
 				</div>
+				<!-- end row -->
+			</div>
+			<!-- end home-content-tablecell -->
+		</div>
+		<!-- end home-content-table -->
+
+		<ul class="home-social-list">
+			<li class="animate-intro">
+				<a href="https://www.youtube.com/channel/UCK1bIJIEV-syd6WZmKoTSSA" target="_blank">
+					<i class="fab fa-youtube"></i>
+				</a>
+			</li>
+			<li class="animate-intro">
+				<a href="https://twitch.tv/sidpan2" target="_blank">
+					<i class="fab fa-twitch"></i>
+				</a>
+			</li>
+			<li class="animate-intro">
+				<a href="https://discord.gg/fMZ55r7" target="_blank">
+					<i class="fab fa-discord"></i>
+				</a>
+			</li>
+			<li class="animate-intro">
+				<a href="https://chat.whatsapp.com/DN8EzaGvLMmC5Py7RdJIUs" target="_blank">
+					<i class="fab fa-whatsapp"></i>
+				</a>
+			</li>
+		</ul>
+		<!-- end home-social-list -->
+
+		<div class="scrolldown">
+			<a href="#about" class="scroll-icon smoothscroll">
+				Scroll Down
+				<i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+			</a>
+		</div>
+
+	</section>
+	<!-- end home -->
+
+
+	<!-- about
+   ================================================== -->
+	<section id="about">
+
+		<div class="row about-wrap">
+			<div class="col-full">
+
+				<div class="about-profile-bg"></div>
+
+				<div class="intro">
+					<h3 class="animate-this">About Us</h3>
+					<p class="lead animate-this">
+						<span>iAssassination</span> is the home for rookie, amateur and pro players, the only moto behind our game is to build an
+						army of gamers...</p>
+				</div>
+
+			</div>
+			<!-- end col-full  -->
+		</div>
+		<!-- end about-wrap  -->
+
+	</section>
+	<!-- end about -->
+
+
+	<!-- about
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+		<div class="gradient-overlay"></div>
+
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+			<div class="col-full">
+				<h3>work</h3>
+				<h1>What We Do</h1>
+
+				<p class="lead">We play and PUBG MOBILE in our leisure hours and do crazy things in it.For example we are in Ace tier in both asia and
+					europe server.In season 4 we will try to reach crown in all servers.We also stream our gameplay on youtube, twitch and
+					omlet tv.</p>
+
+			</div>
+			<!-- end col-full -->
+		</div>
+		<!-- end row -->
+
+		<div class="row services-content">
+
+			<div class="services-list block-1-2 block-tab-full group">
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon">
+						<i class="far fa-eye"></i>
+					</span>
+
+					<div class="service-content">
+						<h3 class="h05">Sniping</h3>
+
+						<p class="lead">we will we will snip you !</p>
+					</div>
+
+				</div>
+				<!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon">
+						<i class="fas fa-fighter-jet"></i>
+					</span>
+
+					<div class="service-content">
+						<h3 class="h05">Chasing</h3>
+
+						<p class="lead">we chase air drops as well as enemies and hunt them</p>
+					</div>
+
+				</div>
+				<!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon">
+						<i class="fas fa-bolt"></i>
+					</span>
+
+					<div class="service-content">
+						<h3 class="h05">Close Combact</h3>
+
+						<p class="lead">we push, we Kill, we Die</p>
+					</div>
+
+				</div>
+				<!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon">
+						<i class="fas fa-cookie"></i>
+					</span>
+
+					<div class="service-content">
+						<h3 class="h05">Cooking</h3>
+
+						<p class="lead">yes we do cook Chicken Dinner</p>
+					</div>
+
+				</div>
+				<!-- end bgrid -->
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon">
+						<i class="icon-megaphone"></i>
+					</span>
+
+					<div class="service-content">
+						<h3 class="h05">Organise</h3>
+
+						<p class="lead">we organise tournaments and custom room matches free of cost.
+							<br>everyone is invited</p>
+					</div>
+
+				</div>
+				<!-- end bgrid -->
+
+
+				<div class="bgrid service-item animate-this">
+
+					<span class="icon">
+						<i class="fab fa-youtube"></i>
+					</span>
+
+					<div class="service-content">
+						<h3 class="h05">Streaming</h3>
+
+						<p class="lead">we stream our gameplay and share best moments on youtube, twitch and
+							<br> omlet tv</p>
+					</div>
+
+				</div>
+				<!-- end bgrid -->
+
+			</div>
+			<!-- end services-list -->
+
+		</div>
+		<!-- end services-content -->
+
+	</section>
+	<!-- end services -->
+
+
+	<!-- stats
+   ================================================== -->
+
+
+	<!-- contact
+   ================================================== -->
+
+	<section id="contact">
+
+		<div class="overlay"></div>
+
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+			<div class="col-twelve">
+				<h3>Contact</h3>
+				<h1>Play With Us</h1>
+
+				<p class="lead">Join our following community and grab opportunity to play with us and in our custom matches, it's free and will be free
+					forever
+				</p>
 			</div>
 		</div>
+		<!-- end section-intro -->
+
+		<div class="row contact-content">
+			<p id="links" align="center">
+				<a href="https://www.youtube.com/channel/UCK1bIJIEV-syd6WZmKoTSSA">
+					<img src="images/social/youtube.png" title="YouTube" alt="YouTube" class="join-us-img">
+					<a>
+						<a href="https://twitch.tv/sidpan2">
+							<img src="images/social/twitch.png" title="Twitch" alt="Twitch" class="join-us-img">
+							<a>
+								<a href="https://discord.gg/fMZ55r7">
+									<img src="images/social/discord.png" title="discord" alt="Discord" class="join-us-img">
+									<a>
+										<a href="https://chat.whatsapp.com/DN8EzaGvLMmC5Py7RdJIUs">
+											<img src="images/social/whatsapp.png" title="Whatsapp" alt="Whatsapp" class="join-us-img">
+											<a>
+			</p>
+
+		</div>
+		<!-- end row contact-content -->
+
+	</section>
+	<!-- end contact -->
+
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+		<div class="footer-main">
+
+			<div class="row"></div>
+			<!-- end row -->
+
+		</div>
+		<!-- end footer-main -->
+
+		<div class="footer-bottom">
+
+			<div class="row">
+
+				<div class="col-twelve">
+					<div class="copyright">
+						<span>Coded and hosted with
+							<svg id="love" class="svg-inline--fa fa-heart fa-w-16" style="color: red;" aria-hidden="true" data-prefix="fa" data-icon="heart"
+							 role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+								<path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
+							</svg> by chankruze</span>
+						<span>© Copyright iAssassination 2018.</span>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- end footer-bottom -->
+
+		<div id="go-top">
+			<a class="smoothscroll" title="Back to Top" href="#top">
+				<i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i>
+			</a>
+		</div>
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
 	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 
