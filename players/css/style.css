@@ -56,3 +56,7 @@ footer {
 img.profile{
     border-radius: 50%;
 }
+
+.center{
+   text-align: center; 
+}
