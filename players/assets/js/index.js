@@ -1,7 +1,7 @@
 var iAssassinationDb = [
-    ["Siddharth Panigrahi 💎", "sniper/pusher",  "DooM丹SidPan", 5127009256],
-    ["Chandan Kumar Mandal 💎", "sniper/pusher",  "DooM丹Chandu", 5264277721],
-    ["Rajmani Ranjan 💎", "sniper/pusher",  "DooM丹Rajmani", 5248537672],
+    ["Siddharth Panigrahi", "sniper/pusher",  "DooM丹SidPan", 5127009256],
+    ["Chandan Kumar Mandal", "sniper/pusher",  "DooM丹Chandu", 5264277721],
+    ["Rajmani Ranjan", "sniper/pusher",  "DooM丹Rajmani", 5248537672],
     ["Ankush Pandey", "sniper/pusher",  "DooM丹Ankush", 5275968187],
     ["Bruce Jackman", "sniper/pusher",  "Dragonmito", 521187656],
     ["Anmol", "sniper/pusher",  "KillerAnmol", ],
@@ -27,7 +27,7 @@ var iAssassinationDb = [
     ["Sachin Mishra", "sniper/pusher",  "Thesachhu", 5124270429],
     ["Kathir Sudan", "sniper/pusher",  "KathirSudan", 574584753],
     ["Subham Sinha", "sniper/pusher",  "SubhamSinha22", 5134076837],
-    ["Chandan Kumar Mandal 💎", "sniper/pusher", "GEEKOFIA", 525601909],
+    ["Chandan Kumar Mandal", "sniper/pusher", "GEEKOFIA", 525601909],
     ["Mayank Jha", "sniper/pusher", "YunovonAmara", 541739948],
     ["Abhinav", "sniper/pusher", "Ankruz3", 581346056],
     ["kudambana", "sniper/pusher",  "kudambana", 5141488536],
@@ -61,33 +61,10 @@ var iAssassinationDb = [
 
 for (row = 0; row < iAssassinationDb.length; row++) {
     var tableData = document.getElementById("playerData");
-    tableData.innerHTML += '<tr>' +
-        '<td><img src="img/samples/scarlet-159.png" class="profile"/><h4>' + iAssassinationDb[row][0] + '</h4></td>' +
-        '<td class="text-center"><span class="label label-success font-content">' + iAssassinationDb[row][1] + '</td>' +
-        '<td class="text-center game-name font-content">' + iAssassinationDb[row][2] + '</td>' +
-        '<td class="text-center game-id font-content">' + iAssassinationDb[row][3] + '</td>' +
-        '</tr>';
+    tableData.innerHTML += '<section>'+
+    '<span class="icon style2 major fa-diamond"></span>'+
+    '<h3>'+ iAssassinationDb[row][2] +'</h3>'+
+    '<p>'+ iAssassinationDb[row][1] +'</p>'+
+    '<p>'+ iAssassinationDb[row][3] +'</p>'+
+'</section>';
 }
-
-// function myFunction() {
-//     var copyText = document.getElementById("myInput");
-//     copyText.select();
-//     document.execCommand("copy");
-    
-//     var tooltip = document.getElementById("myTooltip");
-//     tooltip.innerHTML = "Copied: " + copyText.value;
-//   }
-  
-//   function outFunc() {
-//     var tooltip = document.getElementById("myTooltip");
-//     tooltip.innerHTML = "Copy to clipboard";
-//   }
-
-//   <input type="text" value="Hello World" id="myInput">
-
-// <div class="tooltip">
-// <button onclick="myFunction()" onmouseout="outFunc()">
-//   <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-//   Copy text
-//   </button>
-// </div>
