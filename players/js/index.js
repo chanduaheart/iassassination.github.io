@@ -63,9 +63,9 @@ for (row = 0; row < iAssassinationDb.length; row++) {
     var tableData = document.getElementById("playerData");
     tableData.innerHTML += '<tr>' +
         '<td><img src="img/samples/scarlet-159.png" class="profile"/><h4>' + iAssassinationDb[row][0] + '</h4></td>' +
-        '<td class="text-center"><span class="label label-success">' + iAssassinationDb[row][1] + '</td>' +
-        '<td class="text-center game-name">' + iAssassinationDb[row][2] + '</td>' +
-        '<td class="text-center game-id">' + iAssassinationDb[row][3] + '</td>' +
+        '<td class="text-center"><span class="label label-success font-content">' + iAssassinationDb[row][1] + '</td>' +
+        '<td class="text-center game-name font-content">' + iAssassinationDb[row][2] + '</td>' +
+        '<td class="text-center game-id font-content">' + iAssassinationDb[row][3] + '</td>' +
         '</tr>';
 }
 

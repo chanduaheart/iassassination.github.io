@@ -58,5 +58,17 @@ img.profile{
 }
 
 .center{
-   text-align: center; 
+   text-align: center;
+}
+
+.row{
+    margin-top: 3%;
+}
+
+.font-header{
+    font-size: 20px;
+}
+
+.font-content,.game-name{
+    font-size: 16px;
 }
