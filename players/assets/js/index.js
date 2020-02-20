@@ -1,17 +1,6 @@
-var iAssassinationDb = [
-    ["Siddharth Panigrahi", "sniper/pusher",  "DooM丹SidPan", 5127009256],
+var ggdb = [
     ["Chandan Kumar Mandal", "sniper/pusher",  "DooM丹Chandu", 5264277721],
-    ["Rajmani Ranjan", "sniper/pusher",  "DooM丹Rajmani", 5248537672],
-    ["Ankush Pandey", "sniper/pusher",  "DooM丹Ankush", 5275968187],
-    ["Bruce Jackman", "sniper/pusher",  "Dragonmito", 521187656],
-    ["Anmol", "sniper/pusher",  "KillerAnmol", ],
-    ["Kushagra Chowdhry", "sniper/pusher",  "Kushagra1", ],
-    ["Rajkiran Ranjan", "sniper/pusher",  "Rajkiran09", ],
-    ["Saddam", "sniper/pusher",  "Snakescan", ],
-    ["Aryaman", "sniper/pusher",  "Aryaman", ],
-    ["Ankush Pandey", "sniper/pusher",  "KillerAnkush", 5220535426],
     ["Amrit", "sniper/pusher",  "Psychopath", ],
-    ["Piyanshu Singh", "sniper/pusher",  "Rdxpriyanshu", 5135953698],
     ["Harsh Pandey", "sniper/pusher",  "AkelaBadshah", 5222886852],
     ["MRXSingh", "sniper/pusher",  "MRXSingh", 5192174895],
     ["OnLyRaseAL", "sniper/pusher",  "OnLyRaseAL", 5145484510],
@@ -19,7 +8,6 @@ var iAssassinationDb = [
     ["MrDevil619", "sniper/pusher",  "KathirSudan", 545368422],
     ["ApexPredator65", "sniper/pusher",  "ApexPredator65", 5106537568],
     ["founderofpubg", "sniper/pusher",  "founderofpubg", 533974077],
-    ["SPOTNANA", "sniper/pusher",  "SPOTNANA", 5108408964],
     ["Rambo", "sniper/pusher",  "07Rambo07", 570095023],
     ["Himanshu", "sniper/pusher",  "Himangshu123", 5121491640],
     ["EzioSafwan", "sniper/pusher",  "EzioSafwan", 5109583018],
@@ -59,12 +47,12 @@ var iAssassinationDb = [
     ["iEquinox", "sniper/pusher",  "iEquinox", 517136362]
 ];
 
-for (row = 0; row < iAssassinationDb.length; row++) {
+for (row = 0; row < ggdb.length; row++) {
     var tableData = document.getElementById("playerData");
     tableData.innerHTML += '<section>'+
     '<span class="icon style2 major fa-diamond"></span>'+
-    '<h3>'+ iAssassinationDb[row][2] +'</h3>'+
-    '<p>'+ iAssassinationDb[row][1] +'</p>'+
-    '<p>'+ iAssassinationDb[row][3] +'</p>'+
+    '<h3>'+ ggdb[row][2] +'</h3>'+
+    '<p>'+ ggdb[row][1] +'</p>'+
+    '<p>'+ ggdb[row][3] +'</p>'+
 '</section>';
 }
